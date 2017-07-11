@@ -46,13 +46,13 @@
 {{-- FIN LOGO / MENU-------------}}
 
 {{-- BANNIERE-------------}}
-<div class="container-fluid banniere3 ">
-    <div class="row ">
-        <div class="col-lg-12 col-md-12  col-sm-12"><h1>BANNIERE</h1></div>
+<div class="container-fluid ">
+    <div class="row">
+        <div class="visible-lg col-lg-4 col-md-12  col-sm-12 video3"><h1>VIDEO </h1></div>
+        <div class="col-lg-8 col-md-12  col-sm-12 banniere3"><h1>BANNIERE</h1></div>
     </div>
 </div>
 {{-- FIN BANNIERE-------------}}
-
 
 {{-- SOLUTIONS  / PRODUITS-------------}}
 <div class="container-fluid">

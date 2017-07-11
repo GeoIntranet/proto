@@ -19,5 +19,6 @@ Route::get('/', function () {
 Route::get('/home','RenderController@home')->name('home');
 Route::get('/visu2','RenderController@visu_')->name('visu2');
 Route::get('/visu3','RenderController@visu3')->name('visu3');
+Route::get('/visu4','RenderController@visu4')->name('visu4');
 
 Auth::routes();

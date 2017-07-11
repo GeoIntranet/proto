@@ -28,6 +28,16 @@
   text-align: center;
 }
 
+.video3 {
+  height: 400px;
+  padding-top: 150px;
+  background-color: #3097D1;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-right: solid 1px #6fb6df;
+}
+
 .wraper {
   padding: 10px 5px 10px 5px;
 }

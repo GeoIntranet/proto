@@ -15,7 +15,15 @@
   color: white;
   text-align: center;
 }
-
+.video3{
+  height:400px;
+  padding-top: 150px;
+  background-color: $brand-primary;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-right:solid 1px lighten($brand-primary,15%);
+}
 .wraper{
   padding: 10px 5px 10px 5px;
 

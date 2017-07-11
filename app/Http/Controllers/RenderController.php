@@ -20,4 +20,9 @@ class RenderController extends Controller
     {
         return view('euro.visu3');
     }
+
+    public function visu4()
+    {
+        return view('euro.visu4');
+    }
 }
