@@ -44,13 +44,13 @@
 
 .wraper .item {
   padding-top: 5px;
-  background-color: #cbb956;
+  background-color: #e08e6e;
   font-weight: bold;
   color: white;
 }
 
 .wraper .item:hover {
-  background-color: #8f802c;
+  background-color: #bf5329;
 }
 
 .solution .item {
@@ -58,7 +58,8 @@
 }
 
 .contact {
-  border: solid 1px #ccd0d2;
+  border-top: solid 1px #ccd0d2;
+  border-bottom: solid 1px #ccd0d2;
 }
 
 .menu {
@@ -67,7 +68,7 @@
 
 .logo {
   padding-top: 12px;
-  background-color: #bf5329;
+  background-color: #e08e6e;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -87,7 +88,7 @@
 }
 
 .content {
-  border: solid 1px #969ea2;
+  border-top: solid 1px #969ea2;
 }
 
 .photo_w {
