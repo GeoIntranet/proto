@@ -19,6 +19,15 @@
   text-align: center;
 }
 
+.banniere3 {
+  height: 400px;
+  padding-top: 150px;
+  background-color: #2ab27b;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
 .wraper {
   padding: 10px 5px 10px 5px;
 }

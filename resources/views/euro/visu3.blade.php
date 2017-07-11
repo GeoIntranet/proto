@@ -57,21 +57,13 @@
 {{-- FIN LOGO / MENU-------------}}
 
 {{-- BANNIERE-------------}}
-<div class="container-fluid banniere hidden">
+<div class="container-fluid banniere3 ">
     <div class="row ">
         <div class="col-lg-12 col-md-12  col-sm-12"><h1>BANNIERE</h1></div>
     </div>
 </div>
 {{-- FIN BANNIERE-------------}}
 
-{{-- BANNIERE-------------}}
-<div class="container-fluid ">
-    <div class="row">
-        <div class="visible-lg col-lg-4 col-md-12  col-sm-12 video"><h1>VIDEO </h1></div>
-        <div class="col-lg-8 col-md-12  col-sm-12 banniere"><h1>BANNIERE</h1></div>
-    </div>
-</div>
-{{-- FIN BANNIERE-------------}}
 
 {{-- SOLUTIONS  / PRODUITS-------------}}
 <div class="container-fluid">
@@ -121,7 +113,7 @@
                 <div class="col-sm-12 col-md-12  col-lg-7 ">
                     <div class="row">
                         <div class="col">
-                           <h1> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
+                            <h1> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
                         </div>
                     </div>
 
@@ -238,13 +230,13 @@
                             >1</div>
                         </div>
                     </div>
-                    </div>
                 </div>
-                <div class="item hidden-sm hidden-md col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center "></div>
             </div>
-            <br>
+            <div class="item hidden-sm hidden-md col-xs-1 col-sm-1 col-md-1 col-lg-1 text-center "></div>
         </div>
+        <br>
     </div>
+</div>
 </div>
 {{-- CONTENUE-------------}}
 
