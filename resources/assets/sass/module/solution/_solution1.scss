@@ -2,7 +2,7 @@
   margin-top: -10px;
   padding-top: 30px;
   background-color: #D4E2EB;
-  min-height: 500px ;
+  min-height: 400px ;
 }
 
 .header{
@@ -36,4 +36,9 @@
       background-color: darken($brand-primary,15%);
     }
   }
+}
+
+.separation-solution{
+  padding: 15px;
+  border-right: solid 1px lighten($euro,20%);
 }

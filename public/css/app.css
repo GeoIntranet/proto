@@ -90,7 +90,7 @@
   margin-top: -10px;
   padding-top: 30px;
   background-color: #D4E2EB;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .header {
@@ -125,6 +125,11 @@
 
 .solution-m .item:hover {
   background-color: #405792;
+}
+
+.separation-solution {
+  padding: 15px;
+  border-right: solid 1px #aab8da;
 }
 
 .video_frame {
@@ -223,6 +228,14 @@
 
 .emp {
   border-bottom: dashed 2px #98a9d2;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.regular {
+  font-weight: 300;
 }
 
 /*!
@@ -8578,6 +8591,16 @@ button.close {
 body {
   font-family: 'Roboto',serif;
   font-weight: 300;
+}
+
+a {
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
+  border-bottom: dashed 1px #98a9d2;
+}
+
+a:hover {
+  border-bottom: none;
 }
 
 .text-logo {

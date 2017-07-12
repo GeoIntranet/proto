@@ -32,7 +32,7 @@
 
                 <div class="item  visible-sm visible-md visible-lg  col-sm-2 col-md-2 col-lg-2">
                     <a href="">
-                        <div class="row"><div class="col"><img src="imgs/printer.png" alt=""></div></div>
+                        <div class="row"><div class="col"><img src="imgs/printer_.png" alt=""></div></div>
                         <div class="row">IMPRIMANTES</div>
                     </a>
 
