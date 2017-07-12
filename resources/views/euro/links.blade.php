@@ -8,6 +8,10 @@
             <a href="{{route('visu3')}}">3</a>
             -
             <a href="{{route('visu4')}}">4</a>
+            -
+            <a href="{{route('visu5')}}">5</a>
+            -
+            <a href="{{route('visu6')}}">6</a>
         </div>
 
     </div>

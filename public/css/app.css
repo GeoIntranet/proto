@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@charset "UTF-8";
 
 .border {
   border: solid 1px red;
@@ -58,12 +58,12 @@
 }
 
 .contact {
-  border-top: solid 1px #ccd0d2;
-  border-bottom: solid 1px #ccd0d2;
+  border-top: solid 1px #d4e2eb;
+  border-bottom: solid 1px #d4e2eb;
 }
 
 .menu {
-  border-bottom: solid 1px #ccd0d2;
+  border-bottom: solid 1px #d4e2eb;
 }
 
 .logo {
@@ -88,7 +88,7 @@
 }
 
 .content {
-  border-top: solid 1px #969ea2;
+  border-top: solid 1px #d4e2eb;
 }
 
 .photo_w {
@@ -112,6 +112,76 @@
   color: white;
   text-align: center;
   border-right: solid 1px #6fb6df;
+}
+
+.module-solution {
+  margin-top: -10px;
+  padding-top: 30px;
+  background-color: #D4E2EB;
+  min-height: 500px;
+}
+
+.header {
+  padding-bottom: 15px;
+  font-size: 3em;
+}
+
+.devis {
+  background-color: #3097D1;
+}
+
+.button-devis {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  padding-top: 15px;
+}
+
+.button-devis .button {
+  background-color: #3097D1;
+}
+
+.button-devis .button:hover {
+  background-color: #216a94;
+}
+
+.solution-m .item {
+  height: 80px;
+  background-color: #3097D1;
+}
+
+.solution-m .item:hover {
+  background-color: #216a94;
+}
+
+.video_frame {
+  padding: 100px 10px 100px 0px;
+  height: auto;
+}
+
+.module_content {
+  padding-bottom: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: 200px;
+  background: #212531;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(50%, #F5F8FA), color-stop(50%, #D4E2EB));
+  background: linear-gradient(to right bottom, #F5F8FA 50%, #D4E2EB 50%);
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "googleBI";
+  src: url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.eot"), url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.woff") format("woff"), url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.svg#filename") format("svg");
 }
 
 /*!

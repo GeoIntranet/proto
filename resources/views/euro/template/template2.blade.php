@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eurocomputer</title>
+
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
 </head>
@@ -14,25 +15,29 @@
 
 {{-- BAR CONTACT-------------}}
 @include('euro.component.contact')
+
 {{-- FIN BAR CONTACT-------------}}
 
 {{-- LOGO / MENU-------------}}
-@include('euro.component.menu')
+@yield('menu')
+
 {{-- FIN LOGO / MENU-------------}}
 
 {{-- BANNIERE-------------}}
-@include('euro.component.baniere')
+@yield('banniere')
+
 {{-- FIN BANNIERE-------------}}
 
 
+
+{{-- CONTENUE-------------}}
+@yield('contenue')
+{{-- CONTENUE-------------}}
+
+
 {{-- SOLUTIONS  / PRODUITS-------------}}
-@include('euro.component.solution.solution')
+@yield('solution')
 {{-- FIN SOLUTIONS  / PRODUITS-------------}}
-
-{{-- CONTENUE-------------}}
-@include('euro.component.contenue')
-{{-- CONTENUE-------------}}
-
 
 <br><br><br><br>
 

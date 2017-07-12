@@ -46,12 +46,12 @@
 }
 
 .contact{
-  border-top:solid 1px lighten($text-color,40%);
-  border-bottom:solid 1px lighten($text-color,40%);
+  border-top:solid 1px lighten($brand-info,20%);
+  border-bottom:solid 1px lighten($brand-info,20%);
 }
 
 .menu{
-  border-bottom:solid 1px lighten($text-color,40%);
+  border-bottom:solid 1px lighten($brand-info,20%);
 }
 
 .logo{
@@ -76,7 +76,7 @@
   }
 }
 .content{
-  border-top:solid 1px lighten($text-color,20%);
+  border-top:solid 1px lighten($brand-info,20%);
 }
 
 .photo_w{

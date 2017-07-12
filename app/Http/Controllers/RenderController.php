@@ -25,4 +25,13 @@ class RenderController extends Controller
     {
         return view('euro.visu4');
     }
+
+    public function visu5()
+    {
+        return view('euro.visu5');
+    }
+    public function visu6()
+    {
+        return view('euro.visu6');
+    }
 }

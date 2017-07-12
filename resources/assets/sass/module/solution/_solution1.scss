@@ -1,0 +1,39 @@
+.module-solution{
+  margin-top: -10px;
+  padding-top: 30px;
+  background-color: #D4E2EB;
+  min-height: 500px ;
+}
+
+.header{
+  padding-bottom: 15px;
+  font-size: 3em;
+}
+
+.devis{
+  background-color: $brand-primary;
+}
+
+.button-devis{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-size: 2em;
+  padding-top: 15px;
+  .button{
+    background-color: $brand-primary;
+    &:hover{
+      background-color: darken($brand-primary,15%);
+    }
+  }
+}
+
+.solution-m{
+  .item{
+    height: 80px;
+    background-color: $brand-primary;
+    &:hover{
+      background-color: darken($brand-primary,15%);
+    }
+  }
+}
