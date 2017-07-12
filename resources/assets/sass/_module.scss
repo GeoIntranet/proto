@@ -45,11 +45,6 @@
   }
 }
 
-.contact{
-  border-top:solid 1px lighten($brand-info,20%);
-  border-bottom:solid 1px lighten($brand-info,20%);
-}
-
 .menu{
   border-bottom:solid 1px lighten($brand-info,20%);
 }
@@ -62,19 +57,7 @@
   color: white;
 }
 
-.menu-item{
-  .item{
-    padding-top: 40px;
-    background-color: $brand-info;
-    height: 100px;
-    font-weight: bold;
-    color:white;
-    border-right: solid 1px lighten($brand-info,15%);
-    &:hover{
-      background-color: $brand-primary ;
-    };
-  }
-}
+
 .content{
   border-top:solid 1px lighten($brand-info,20%);
 }
@@ -91,12 +74,3 @@
   }
 }
 
-.video{
-  height:300px;
-  padding-top: 100px;
-  background-color: $brand-primary;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  border-right:solid 1px lighten($brand-primary,15%);
-}

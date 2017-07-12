@@ -1,11 +1,31 @@
 .video_frame{
   padding: 100px 10px 100px 0px;
   height: auto;
+  .video{
+    span {
+      border-bottom: dashed 2px lighten($euro,20%);
+    }
+    font-size: 3.2em;
+    border-radius: 10px;
+    height:300px;
+    padding-top: 100px;
+    background-color: $euro;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-right:solid 1px lighten($euro,15%);
+
+    &:hover{
+      background-color: darken($euro,10%);
+    }
+  }
+
 }
 .module_content{
-  //border-bottom: solid 1px lighten($brand-info,20%);
+
   padding-bottom: 20px;
 }
+
 .bg {
   width: 100%;
   height:200px;
@@ -19,4 +39,11 @@
   font-weight:normal;
   text-transform:uppercase;
   font-family:sans-serif;
+}
+
+.header-content{
+  padding: 20px 0px 20px 0px;
+  font-size: 2.70em;
+  font-family: Roboto,sans-serif;
+  font-weight: 700;
 }

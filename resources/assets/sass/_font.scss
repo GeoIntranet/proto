@@ -1,6 +1,9 @@
-@font-face {
-  font-family: "googleBI";
-  src: url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.eot"),
-  url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.woff") format("woff"),
-  url("http://192.168.1.16/build/fonts/Roboto-BoldItalic-webfont.svg#filename") format("svg");
+
+
+.text-euro{
+  color:#637cbb;
+}
+
+.emp{
+  border-bottom: dashed 2px lighten($euro,15%);
 }

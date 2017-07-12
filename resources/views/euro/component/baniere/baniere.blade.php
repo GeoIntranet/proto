@@ -1,5 +1,7 @@
-<div class="container-fluid banniere ">
+<div class="container-fluid ">
     <div class="row ">
-        <div class="col-lg-12 col-md-12  col-sm-12"><h1>BANNIERE</h1></div>
+        <div class="col wrapper-baniere">
+            <img src="imgs/info.jpg" alt="informatique">
+        </div>
     </div>
 </div>

@@ -5,13 +5,15 @@
                 <div class="item visible-lg col-lg-1  ">  </div>
 
                 <div class="col-sm-12 col-md-12  col-lg-3 video_frame ">
-                    <div class="video"><h1 class="text-900 "><u>VIDEO</u></h1></div>
+                    <div class="video">
+                        <img src="imgs/youtube.png" alt=""> <span>VIDEO</span>
+                    </div>
                 </div>
 
                 <div class="col-sm-12 col-md-12  col-lg-7 ">
                     <div class="row">
-                        <div class="col">
-                            <h1 class="text-700"> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
+                        <div class="col header-content">
+                            <img src="imgs/light-bulb.png" alt=""> <span> DECOUVRIR <b class="text-euro">EUROCOMPUTER</b> EN <b class="emp">VIDEO</b></span>
                         </div>
                     </div>
 
@@ -19,35 +21,38 @@
                         <div class="col-sm-12 col-md-12 text-300">
 
                             <p>
-                                Vente de matériels de traçabilité reconditionnés
-                                (lecteur, scanner code barre, imprimante Zebra, etc.) et réparation.
+                                <b>Vente de matériels de traçabilité reconditionnés
+                                (lecteur, scanner code barre, imprimante Zebra, etc.) et réparation.</b>
                             </p>
                             <p>
                                 Depuis 25 ans, Eurocomputer propose son savoir-faire en matière d’optimisation des coûts informatiques.
 
-                                Consultez nos offres de déstockage en traçabilité : imprimantes étiquettes & lecteurs code-barres
+                                Consultez nos offres de déstockage en traçabilité : <a href="">imprimantes étiquettes</a> &
+                                <a href="">lecteurs code-barres</a>
                             </p>
 
                             <ul>
                                 <li>
-                                    toutes les plus grandes marques sont en stock : Zebra Motorola Symbol – Datalogic – Psion Teklogix – Intermec
+                                    Toutes les plus grandes marques sont en stock : <b>Zebra Motorola Symbol – Datalogic – Psion Teklogix – Intermec</b>
                                 </li>
                             </ul>
 
                             <p>
                                 Profitez de nos promotions sur les
-                                périphériques de bureau : PC – écrans – portables – platines clients-légers - imprimantes laser – imprimantes matricielles
+                                périphériques de bureau : <a href="">PC</a> – <a href="">écrans</a> – <a href="">portables</a> – platines
+                                <a href="">clients-légers</a> - imprimantes <a href="">laser</a> – imprimantes
+                                <a href="">matricielles</a>
                             </p>
 
                             <ul>
                                 <li>
-                                    marques HP – Lenovo – Dell Wyse – Lexmark – Epson – Oki
+                                    <b>marques HP – Lenovo – Dell Wyse – Lexmark – Epson – Oki</b>
                                 </li>
                             </ul>
 
                             <p>
-                                Vous recherchez d’anciennes références, du matériel informatique reconditionné ou en déstockage,
-                                des accessoires & pièces détachées : contactez-nous, une réponse vous sera apportée dans les 24 heures.
+                                Vous recherchez d’anciennes références, <u>du matériel informatique reconditionné</u> ou en déstockage,
+                                des <u>accessoires & pièces détachées</u> : contactez-nous, une réponse vous sera apportée dans les <b class="text-euro">24 heures</b>.
                             </p>
 
                             <p>

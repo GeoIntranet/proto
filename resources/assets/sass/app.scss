@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,100,100i,400,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 
 
 // Variables
@@ -10,6 +10,10 @@
 @import "module";
 @import "module/solution/solution1";
 @import "module/contenue/contenue";
+@import "module/banniere/banniere";
+@import "module/logo/logo";
+@import "module/contact/contact";
+@import "module/menu/menu";
 @import "font";
 
 // Bootstrap
@@ -17,6 +21,11 @@
 body{
   font-family: 'Roboto',serif;
   font-weight: 300;
+}
+
+.text-logo{
+
+  font-family: 'Bungee', sans-serif;
 }
 
 .text  {

@@ -1,0 +1,19 @@
+.menu-item{
+  .item{
+    a:hover{
+      color:white;
+    }
+    &.first{
+      border-left: solid 1px lighten($brand-info,15%);
+
+    }
+    padding-top: 10px;
+    height: 100px;
+    font-weight: bold;
+    color:lighten($brand-info,15%);
+    border-right: solid 1px lighten($brand-info,15%);
+    &:hover{
+      background-color: $brand-primary ;
+    };
+  }
+}
