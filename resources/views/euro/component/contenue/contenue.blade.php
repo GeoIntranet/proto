@@ -5,18 +5,18 @@
                 <div class="item visible-lg col-lg-1  ">  </div>
 
                 <div class="col-sm-12 col-md-12  col-lg-3 video_frame ">
-                    <div class="video"><h1>VIDEO</h1></div>
+                    <div class="video"><h1 class="text-900 "><u>VIDEO</u></h1></div>
                 </div>
 
                 <div class="col-sm-12 col-md-12  col-lg-7 ">
                     <div class="row">
                         <div class="col">
-                            <h1> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
+                            <h1 class="text-700"> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-sm-12 col-md-12">
+                        <div class="col-sm-12 col-md-12 text-300">
 
                             <p>
                                 Vente de matériels de traçabilité reconditionnés
