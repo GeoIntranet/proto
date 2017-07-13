@@ -10,23 +10,7 @@
   font-size: 3em;
 }
 
-.devis{
-  background-color: $brand-primary;
-}
 
-.button-devis{
-  text-align: center;
-  color:white;
-  font-weight: bold;
-  font-size: 2em;
-  padding-top: 15px;
-  .button{
-    background-color: $brand-primary;
-    &:hover{
-      background-color: darken($brand-primary,15%);
-    }
-  }
-}
 
 .solution-m{
   .item{

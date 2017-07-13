@@ -1,0 +1,27 @@
+.devis{
+  background-color: $brand-primary;
+}
+
+.button-devis{
+  padding-top: 15px;
+  a{
+
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 2em;
+    padding-top: 15px;
+    .button{
+      background-color: $brand-primary;
+      border-radius: 5px;
+
+      &:hover{
+        background-color: transparent;
+        border-radius: 8px;
+        border: solid $euro 2px;
+        color:$euro;
+      }
+    }
+  }
+
+}

@@ -15,6 +15,12 @@
     {{-- FIN BAR CONTACT-------------}}
 @endsection
 
+@section('recherche')
+    {{-- BAR CONTACT-------------}}
+    @include('euro.component.recherche')
+    {{-- FIN BAR CONTACT-------------}}
+@endsection
+
 @section('contenue')
     {{-- BAR CONTACT-------------}}
     @include('euro.component.contenue.contenue')

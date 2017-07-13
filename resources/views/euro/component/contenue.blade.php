@@ -7,12 +7,12 @@
                     <div class="row">
                         <div class="col">
                             <h1> DECOUVRIR EUROCOMPUTER EN VIDEO</h1>
+
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-
                             <p>
                                 Vente de matériels de traçabilité reconditionnés
                                 (lecteur, scanner code barre, imprimante Zebra, etc.) et réparation.

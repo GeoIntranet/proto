@@ -6,11 +6,15 @@
             <div class="row prestation">
                 <div class="item visible-lg col-lg-1  ">  </div>
                 <div class="item col-xs-6 col-sm-6 col-md-6 col-lg-5 header text-left">
-                    <span> <img src="imgs/wrench.png" alt=""> <b>NOS</b> <b class="text-euro">SOLUTIONS</b> </span>
+                    <span> <img src="imgs/wrench.png" alt=""> <b>NOS</b> <b class="text-euro">SOLUTIONS — </b> </span>
                 </div>
                 <div class="item col-xs-6 col-sm-6 col-md-6 col-lg-5  text-right">
                     <div class="row button-devis">
-                        <div class="col-lg-offset-8 col-lg-4  button"><u>DEVIS</u></div>
+                        <a href="">
+                            <div class="col-lg-offset-8 col-lg-4  button">
+                                <u>DEVIS</u>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="item visible-lg col-lg-1  ">  </div>

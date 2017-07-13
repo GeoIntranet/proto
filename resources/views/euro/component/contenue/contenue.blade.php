@@ -24,6 +24,7 @@
                                 <b>Vente de matériels de traçabilité reconditionnés
                                 (lecteur, scanner code barre, imprimante Zebra, etc.) et réparation.</b>
                             </p>
+
                             <p>
                                 Depuis 25 ans, Eurocomputer propose son savoir-faire en matière d’optimisation des coûts informatiques.
 
@@ -36,9 +37,9 @@
                                     Toutes les plus grandes marques sont en stock : <b>Zebra Motorola Symbol – Datalogic – Psion Teklogix – Intermec</b>
                                 </li>
                             </ul>
-
+                            <br>
                             <p>
-                                Profitez de nos promotions sur les
+                                <i class="fa fa-flash text-euro"></i>&nbsp;&nbsp; Profitez de nos promotions sur les
                                 périphériques de bureau : <a href="">PC</a> – <a href="">écrans</a> – <a href="">portables</a> – platines
                                 <a href="">clients-légers</a> - imprimantes <a href="">laser</a> – imprimantes
                                 <a href="">matricielles</a>
@@ -49,24 +50,27 @@
                                     <b>marques HP – Lenovo – Dell Wyse – Lexmark – Epson – Oki</b>
                                 </li>
                             </ul>
-
+                            <br>
                             <p>
-                                Vous recherchez d’anciennes références, <u>du matériel informatique reconditionné</u> ou en déstockage,
+                                <i class="fa fa-search text-euro"></i>&nbsp;&nbsp; Vous recherchez d’anciennes références, <u>du matériel informatique reconditionné</u> ou en déstockage,
                                 des <u>accessoires & pièces détachées</u> : contactez-nous, une réponse vous sera apportée dans les <b class="text-euro">24 heures</b>.
                             </p>
 
                             <p>
-                                Pour tous ces matériels commercialisés, des prestations d’échange, de reconditionnement, de réparation, de location sont proposés.
+                                Pour tous ces matériels commercialisés, des prestations <a href="">d’échange</a>, de
+                                <a href="">reconditionnement</a>, de <a href="">réparation</a>, de <a href="">location</a> sont proposés.
                             </p>
+                            <br>
                             <p>
-                                Envoyez-nous vos périphériques en panne : terminaux mobiles, scanners code-barres et imprimantes
-                                thermiques etc… Un devis gratuit de réparation vous sera adressé immédiatement. La réparation est
+                                <i class="fa fa-paper-plane text-euro"></i>&nbsp;&nbsp; Envoyez-nous vos périphériques en panne : <a href="">terminaux mobiles</a>,
+                                <a href="">scanners code-barres</a> et <a href="">imprimantes
+                                thermiques</a> etc… <b>Un devis gratuit de réparation</b> vous sera adressé immédiatement. La réparation est
                                 effectuée dans nos locaux, au siège français du groupe. Le matériel réparé vous sera retourné dans des délais reconnus comme
                                 étant les plus courts du marché. Eurocomputer est partout plébiscité pour sa réactivité, y compris hors contrat de maintenance.
                             </p>
-
+                            <br>
                             <p>
-                                La reprise et la valorisation
+                                <i class="fa fa-wrench text-euro"></i>&nbsp;&nbsp; La <a href="">reprise</a> et la valorisation
                                 de vos imprimantes d’occasion en panne est possible, dans le cadre de remplacement par du matériel reconditionné ou neuf.
                             </p>
                             <p>

@@ -25,9 +25,11 @@
 
 {{-- BANNIERE-------------}}
 @yield('banniere')
-
 {{-- FIN BANNIERE-------------}}
 
+{{-- RECERCHE-------------}}
+@yield('recherche')
+{{-- FIN RECERCHE-------------}}
 
 
 {{-- CONTENUE-------------}}

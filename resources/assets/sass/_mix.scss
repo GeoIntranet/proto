@@ -1,5 +1,5 @@
 .border{
-border:solid 1px red;
+border:solid 1px $euro;
 }
 
 .row-eq-height {
@@ -7,4 +7,11 @@ border:solid 1px red;
   display: -webkit-flex;
   display: -ms-flexbox;
   display:         flex;
+}
+
+hr{
+  &.sm{
+    margin:15px;
+    border-bottom:dashed 1px lighten($euro,30%);
+  }
 }

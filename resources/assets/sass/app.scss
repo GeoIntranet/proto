@@ -2,13 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,100,100i,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
-
+@import "node_modules/font-awesome/scss/font-awesome.scss";
 
 // Variables
 @import "variables";
 @import "mix";
 @import "module";
 @import "module/solution/solution1";
+@import "module/solution/btn_devis";
 @import "module/contenue/contenue";
 @import "module/banniere/banniere";
 @import "module/logo/logo";
@@ -18,6 +19,7 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
 body{
   font-family: 'Roboto',serif;
   font-weight: 300;
