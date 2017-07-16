@@ -1,13 +1,32 @@
 <div class="container-fluid module_content">
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+    </div>
     <div class="row ">
         <div class="col-sm-12 col-lg-12 col-md-12 ">
             <div class="row">
                 <div class="item visible-lg col-lg-1  ">  </div>
 
-                <div class="col-sm-12 col-md-12  col-lg-3 video_frame ">
-                    <div class="video">
-                        <img src="imgs/youtube.png" alt=""> <span>VIDEO</span>
+                <div class="col-sm-12 col-md-12  col-lg-3  ">
+
+                    <div class="row video_frame">
+                        <div class="video">
+                            <img src="imgs/youtube.png" alt=""> <span>VIDEO</span>
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-6"> <h1>1</h1></div>
+                        <div class="col-lg-6"><h1>2</h1> </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6"> <h1>3</h1></div>
+                        <div class="col-lg-6"> <h1>4</h1></div>
+                    </div>
+
                 </div>
 
                 <div class="col-sm-12 col-md-12  col-lg-7 ">

@@ -4,7 +4,7 @@
 
 @section('menu')
     {{-- BAR CONTACT-------------}}
-    @include('euro.component.menu')
+    @include('euro.component.menu2')
     {{-- FIN BAR CONTACT-------------}}
 @endsection
 
@@ -14,6 +14,8 @@
     @include('euro.component.baniere.baniere')
     {{-- FIN BAR CONTACT-------------}}
 @endsection
+
+
 
 @section('recherche')
     {{-- BAR CONTACT-------------}}
@@ -28,8 +30,6 @@
 
 <div class="bg "></div>
 @endsection
-
-
 
 @section('solution')
     {{-- BAR CONTACT-------------}}

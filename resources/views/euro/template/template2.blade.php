@@ -4,45 +4,54 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Eurocomputer</title>
 
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
 </head>
 <body>
-@include('euro.links')
+<div id="app">
+
+    @include('euro.links')
 
 
-{{-- BAR CONTACT-------------}}
-@include('euro.component.contact')
+    {{-- BAR CONTACT-------------}}
+    @include('euro.component.contact')
 
-{{-- FIN BAR CONTACT-------------}}
+    {{-- FIN BAR CONTACT-------------}}
 
-{{-- LOGO / MENU-------------}}
-@yield('menu')
+    {{-- LOGO / MENU-------------}}
+    @yield('menu')
 
-{{-- FIN LOGO / MENU-------------}}
+    {{-- FIN LOGO / MENU-------------}}
 
-{{-- BANNIERE-------------}}
-@yield('banniere')
-{{-- FIN BANNIERE-------------}}
-
-{{-- RECERCHE-------------}}
-@yield('recherche')
-{{-- FIN RECERCHE-------------}}
+    {{-- BANNIERE-------------}}
+    @yield('banniere')
+    {{-- FIN BANNIERE-------------}}
 
 
-{{-- CONTENUE-------------}}
-@yield('contenue')
-{{-- CONTENUE-------------}}
+    {{-- RECERCHE-------------}}
+    @yield('vuejs')
+    {{-- FIN RECERCHE-------------}}
+
+    {{-- RECERCHE-------------}}
+    @yield('recherche')
+    {{-- FIN RECERCHE-------------}}
+
+    {{-- CONTENUE-------------}}
+    @yield('contenue')
+    {{-- CONTENUE-------------}}
 
 
-{{-- SOLUTIONS  / PRODUITS-------------}}
-@yield('solution')
-{{-- FIN SOLUTIONS  / PRODUITS-------------}}
+    {{-- SOLUTIONS  / PRODUITS-------------}}
+    @yield('solution')
+    {{-- FIN SOLUTIONS  / PRODUITS-------------}}
+</div>
+
 
 <br><br><br><br>
-
+<script src="{{ mix('/js/app.js') }}"></script>
 </body>
 
 </html>

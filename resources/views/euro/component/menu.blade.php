@@ -7,7 +7,8 @@
 
         <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 ">
             <div class="col wrapper-logo">
-                <img class="" src="imgs/euro_.png" alt="logo eurocomputer"> <l style="padding-top: 10px;" class="text-logo">Eurocomputer</l>
+                <img class="" src="imgs/euro_.png" alt="logo eurocomputer">
+                <b style="padding-top: 10px;" class="text-logo">Eurocomputer</b>
             </div>
         </div>
 

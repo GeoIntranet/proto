@@ -7,7 +7,16 @@
 
 require('./bootstrap');
 
+
+window.axios = require('axios');
+
+
+window.Laravel = {
+    csrfToken: $('meta[name=csrf-token]').attr("content")
+};
+
 window.Vue = require('vue');
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -16,6 +25,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('example', require('./components/Example.vue'));
+Vue.component('search', require('./components/Search.vue'));
 
 const app = new Vue({
     el: '#app'

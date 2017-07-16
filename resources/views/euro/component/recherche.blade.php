@@ -8,7 +8,7 @@
             </h5>
         </div>
         <div class="col-lg-3 col-md-12  col-sm-12 text-right" style="padding-top: 10px ; padding-bottom: 10px">
-            <input type="text" placeholder="Recherche" class="form-control">
+            <search></search>
         </div>
         <div class="item visible-lg col-lg-1  ">  </div>
     </div>

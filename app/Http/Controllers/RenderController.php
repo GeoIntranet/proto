@@ -30,8 +30,16 @@ class RenderController extends Controller
     {
         return view('euro.visu5');
     }
-    public function visu6()
+    public function visu6(Request $request)
     {
-        return view('euro.visu6');
+        $user['nom'] = $request->cookie('nom') ? $request->cookie('nom') : false;
+        $user['prenom'] = $request->cookie('prenom') ? $request->cookie('prenom') : false;
+        return view('euro.visu6')->with(compact('user'));
+    }
+
+    public function clientInformation()
+    {
+        var_dump($_SERVER['REMOTE_ADDR']);
+
     }
 }

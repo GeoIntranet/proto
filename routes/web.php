@@ -22,5 +22,8 @@ Route::get('/visu3','RenderController@visu3')->name('visu3');
 Route::get('/visu4','RenderController@visu4')->name('visu4');
 Route::get('/visu5','RenderController@visu5')->name('visu5');
 Route::get('/visu6','RenderController@visu6')->name('visu6');
+Route::get('/ask','AskController@getAsk')->name('ask');
+Route::post('/ask','AskController@postAsk');
+Route::get('/information','RenderController@clientInformation');
 
 Auth::routes();
