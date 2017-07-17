@@ -3249,9 +3249,24 @@ hr.sm {
   font-weight: 700;
 }
 
+.wrapper-baniere {
+  text-align: center;
+  height: 400px;
+  /*or 70%, or what you want*/
+}
+
 .wrapper-baniere img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  max-width: 1900px;
+  max-height: 400px;
+}
+
+.wrapper-baniere .container-imgs {
+  border: solid 1px red;
+  width: 100%;
+  /*or 70%, or what you want*/
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .wrapper-logo img {
