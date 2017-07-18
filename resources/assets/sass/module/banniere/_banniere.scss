@@ -1,17 +1,16 @@
 .wrapper-baniere{
-  text-align: center;
-  height: 400px; /*or 70%, or what you want*/
+  //text-align: center;
+  //height: 400px; /*or 70%, or what you want*/
   img {
-
     width: auto;
     max-width: 1900px;
     max-height: 400px;
   }
-  .container-imgs{
-    border:solid 1px red;
-    height: 400px;
-    width:  100%; /*or 70%, or what you want*/
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  //.container-imgs{
+  //  border:solid 1px red;
+  //  height: 400px;
+  //  width:  100%; /*or 70%, or what you want*/
+  //  background-position: center;
+  //  background-repeat: no-repeat;
+  //}
 }

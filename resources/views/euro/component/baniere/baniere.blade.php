@@ -1,7 +1,11 @@
 <div class="container-fluid ">
     <div class="row ">
-        <div class="col wrapper-baniere">
-            <img src="imgs/info_h.jpg" alt="informatique">
+        <div class="col wrapper-baniere" style="">
+            <img src="imgs/ban_rep.jpg" alt="informatique"
+                 style="
+                 width: 100%;
+                 max-height: 400px;
+                ">
         </div>
         {{--<div class="container-imgs" style="--}}
             {{--background-position: center;--}}
