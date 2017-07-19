@@ -1,0 +1,44 @@
+
+.expend{
+  transition: all 0.2s;
+}
+
+input[type="text"]{
+
+  &.search_euro{
+    -webkit-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0);
+    -moz-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0);
+    box-shadow: -200px -200px 0px -200px rgba(0,0,0,0);
+
+    -webkit-box-shadow: inset -200px -200px 0px -200px rgba(0,0,0,0);
+    -moz-box-shadow: inset -200px -200px 0px -200px rgba(0,0,0,0);
+    box-shadow: inset -200px -200px 0px -200px rgba(0,0,0,0);
+
+    border: solid 2px #D4E2EB;
+    outline: none;
+  }
+}
+
+.positionBar
+{
+  //-moz-box-shadow: 1px 1px 10px 1px #cfcfcf;
+  //-webkit-box-shadow: 1px 1px 10px 1px #cfcfcf;
+  //-o-box-shadow: 1px 1px 10px 1px #cfcfcf;
+  //box-shadow: 1px 1px 10px 1px #cfcfcf;
+  //filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=10);
+
+  background-color: white;
+  border:solid 2px #D4E2EB;
+  //overflow: auto;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 3px;
+  z-index: 1001;
+  position: absolute;
+  top:57px
+}
+
+.search_zone{
+  padding: 10px;
+  text-align: left;
+}

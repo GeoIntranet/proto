@@ -1669,11 +1669,100 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
+    data: function data() {
+        return {
+            search: '',
+            focus: false,
+            activeComplete: 'none',
+            hasData: false,
+            data: {},
+            errorSearch: ''
+        };
+    },
+
+    computed: {
+        isActive: function isActive() {
+            return {
+                'expend form-inline col-8 p-0': this.focus === true,
+                'expend form-inline col-5  p-0': this.focus === false
+            };
+        }
+
+    },
+
+    methods: {
+        clickSearch: function clickSearch() {},
+        closeSearch: function closeSearch() {
+            console.log('close');
+            this.focus = false;
+            this.activeComplete = 'none';
+            this.resetData();
+        },
+        resetData: function resetData() {
+            this.hasData = false;
+            this.search = '';
+            this.data = {};
+        },
+        readyForSearch: function readyForSearch() {
+            return this.search !== '' ? false : true;
+        },
+        inputfocus: function inputfocus() {
+            this.focus = true;
+            this.activeComplete = '';
+        },
+        emptySearch: function emptySearch() {
+            if (this.search === '') {
+                this.resetData();
+            }
+        },
+        inputOutfocus: function inputOutfocus() {
+            this.focus = false;
+            this.activeComplete = 'none';
+            this.resetData();
+        },
+        autocomplete: function autocomplete() {
+            var _this = this;
+
+            if (this.search !== '') {
+
+                axios.post('/search', {
+                    search: this.search
+                }).then(function (response) {
+                    _this.hasData = true;
+                    _this.errorSearch = '';
+                    _this.data = response.data;
+                }).catch(function (response) {
+                    _this.hasData = true;
+                    _this.errorSearch = 'il y\'a un probleme lors de la recherche ';
+                });
+            }
+        }
+    },
+    mounted: function mounted() {}
 });
 
 /***/ }),
@@ -31767,36 +31856,62 @@ if (false) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: "container-fluid "
+  return _c('div', [_c('div', {
+    staticClass: "row "
   }, [_c('div', {
-    staticClass: "row ",
-    staticStyle: {
-      "border-bottom": "2px solid #D4E2EB"
+    staticClass: " col-sm-12 col-md-12 col-lg-12 "
+  }, [_c('form', {
+    class: _vm.isActive
+  }, [_c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: (_vm.search),
+      expression: "search"
+    }],
+    staticClass: "form-control col-12 search_euro",
+    attrs: {
+      "autocomplete": "off",
+      "name": "search",
+      "type": "text",
+      "placeholder": "Recherche"
+    },
+    domProps: {
+      "value": (_vm.search)
+    },
+    on: {
+      "click": _vm.inputfocus,
+      "keyup": [function($event) {
+        if (!('button' in $event) && _vm._k($event.keyCode, "esc", 27)) { return null; }
+        _vm.closeSearch($event)
+      }, function($event) {
+        if (!('button' in $event) && _vm._k($event.keyCode, "delete", [8, 46])) { return null; }
+        _vm.emptySearch($event)
+      }, _vm.autocomplete],
+      "focus": _vm.inputfocus,
+      "blur": _vm.inputOutfocus,
+      "input": function($event) {
+        if ($event.target.composing) { return; }
+        _vm.search = $event.target.value
+      }
     }
-  }, [_c('div', {
-    staticClass: "item visible-lg col-lg-1  "
-  }), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('div', {
-    staticClass: "col-lg-3 col-md-12  col-sm-12 text-right",
-    staticStyle: {
-      "padding-top": "10px",
-      "padding-bottom": "10px"
+  })])])]), _vm._v(" "), _c('div', {
+    staticClass: "row positionBar ",
+    style: ({
+      display: _vm.activeComplete
+    }),
+    attrs: {
+      "id": "scroll"
     }
-  }, [_c('search')], 1), _vm._v(" "), _c('div', {
-    staticClass: "item visible-lg col-lg-1  "
-  })])])
+  }, [_vm._m(0)])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "visible-lg col-lg-7 col-md-12  col-sm-12 ",
-    staticStyle: {
-      "padding-top": "10px",
-      "padding-bottom": "10px"
-    }
-  }, [_c('h5', [_c('i', {
-    staticClass: "fa fa-home"
-  }), _vm._v("\r\n         Index   "), _c('i', {
-    staticClass: "fa fa-angle-right"
-  }), _vm._v("  Presentation\r\n")])])
+    staticClass: "col-lg-12 col-sm-12 col-md-12 "
+  }, [_c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "col-sm-12 col-md-12 col-lg-12 search_zone"
+  }, [_vm._v("\n                    Dans la zone de recherche , ecrit "), _c('b', [_vm._v("Zebra")])])])])
 }]}
 module.exports.render._withStripped = true
 if (false) {

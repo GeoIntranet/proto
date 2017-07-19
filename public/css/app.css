@@ -3053,6 +3053,10 @@
   clip: auto;
 }
 
+.borderr {
+  border: solid 1px red;
+}
+
 .border {
   border: solid 1px #637cbb;
 }
@@ -3287,6 +3291,36 @@ hr.sm {
 
 .menu-item .item:hover {
   background-color: #637cbb;
+}
+
+.expend {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+input[type="text"].search_euro {
+  -webkit-box-shadow: -200px -200px 0px -200px transparent;
+  box-shadow: -200px -200px 0px -200px transparent;
+  -webkit-box-shadow: inset -200px -200px 0px -200px transparent;
+  box-shadow: inset -200px -200px 0px -200px transparent;
+  border: solid 2px #D4E2EB;
+  outline: none;
+}
+
+.positionBar {
+  background-color: white;
+  border: solid 2px #D4E2EB;
+  width: 100%;
+  min-height: 300px;
+  border-radius: 3px;
+  z-index: 1001;
+  position: absolute;
+  top: 57px;
+}
+
+.search_zone {
+  padding: 10px;
+  text-align: left;
 }
 
 .text-euro {
